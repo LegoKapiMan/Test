@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css?family=Muli:300');
+@import url('http://fonts.googleapis.com/css?family=Amiko&subset=latin,latin-ext');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Amiko', sans-serif;
+}
+body{
+	background-color: #333;
+}
+header, footer{
+	width: 100%;
+}
+header{
+	height: 200px;
+	width: 100%;
+	background-image: url(grafika/crypto5.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: white;
+	transition: .5s;
+}
+header p{
+	font-size: 32px;
+}
+.container{
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.top{
+	border-bottom: 1px solid white;
+	height: 40px;
+	padding-top: 10px;
+}
+nav{
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding-right: 50px;
+	text-align: center;
+}
+nav ul{
+	list-style-type: none;
+	display: inline-flex;
+}
+nav ul li{
+	top: -20px;
+	height: 52px;
+	width: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav ul li:hover{
+	transition-duration: 1s;
+	background: rgba(0, 66, 151, 0.816);
+}
+a:link{
+	text-decoration:none;
+	color: rgb(0, 119, 255);
+	}
+a:visited{
+	text-decoration:none;
+	color: rgb(0, 119, 255);
+}
+.w{
+	text-decoration: none;
+	color: rgb(0, 255, 255);
+}
+.rys{
+	float: left;
+	width: 1200px;
+	
+}
+footer{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background: #333;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	clear: both;
+}
+.left,.right{
+	float: left;
+	width: 50%;
+	height: 400px;
+}
+.left p{
+	font-size: 32px;
+}
+article{
+	padding-top: 30px;
+	color: #ffffff;
+	background-image: url(grafika/tlo2.jpg);
+}
+.right p{
+	font-size: 22px;
+	color: #026efc;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.box{
+	padding-left: 5px;
+	width: 48%;
+	height: 50%;
+	float: left;
+}
+h1{
+	font-size: 50px;
+	text-align: center;
+}
+h2{
+	font-size: 35px;
+	text-align: center;
+}
+h3{
+	font-size: 25px;
+}
+b{
+	font-size: 30px;
+}
+.p{
+    display: block;
+    margin-block-start: 1em;
+}
+.img{
+	border: 4px solid #9b9b9b;
+	border-radius: 5%;
+	margin-right: 10px;
+}
+.img2{
+	border: 4px solid #0a24b6;
+	border-radius: 5%;
+	margin-right: 10px;
+}
+a.active{
+	color: rgb(0, 225, 255);
+}
